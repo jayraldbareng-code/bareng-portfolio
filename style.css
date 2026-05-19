@@ -69,3 +69,33 @@ a:hover { opacity: .75; }
   text-shadow: 0 0 8px var(--green-bright);
 }
 
+section {
+  position: relative; z-index: 1;
+  padding: 7rem 6rem;
+  min-height: 100vh;
+  display: flex; flex-direction: column; justify-content: center;
+}
+
+.section-label {
+  font-size: .78rem; letter-spacing: 4px;
+  color: var(--green-mid); text-transform: uppercase;
+  margin-bottom: .6rem;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 2.4rem; font-weight: 700;
+  color: #ffffff;
+  margin-bottom: .5rem;
+}
+
+.about-divider {
+  width: 48px; height: 3px;
+  background: linear-gradient(90deg, var(--green-bright), var(--green-dim));
+  margin-bottom: 3rem; border-radius: 2px;
+}
+
+.highlight { color: var(--green-bright); }
+
+
+
