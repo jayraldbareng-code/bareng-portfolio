@@ -128,4 +128,48 @@ section {
 .hero-subtitle { font-size: .95rem; color: var(--text-primary); margin-bottom: 2rem; }
 
 
+.hero-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
 
+.btn-primary {
+  padding: .7rem 1.8rem;
+  background: var(--green-bright); color: #000;
+  font-family: var(--font-body); font-size: .85rem;
+  font-weight: 700; letter-spacing: 1px;
+  border: 2px solid var(--green-bright);
+  border-radius: 2px;
+  box-shadow: 0 0 14px rgba(0,255,65,.45);
+  transition: background .2s, box-shadow .2s;
+}
+.btn-primary:hover {
+  background: transparent; color: var(--green-bright);
+  box-shadow: 0 0 22px rgba(0,255,65,.7);
+  opacity: 1;
+}
+
+.btn-ghost {
+  padding: .7rem 1.8rem; background: transparent;
+  color: var(--text-primary); font-family: var(--font-body);
+  font-size: .85rem; letter-spacing: 1px;
+  border: 1px solid var(--border); border-radius: 2px;
+  transition: border-color .2s, color .2s;
+}
+.btn-ghost:hover { border-color: var(--green-bright); color: var(--green-bright); opacity: 1; }
+
+
+.hero-image { flex: 0 0 300px; display: flex; justify-content: center; }
+
+.hero-image img,
+.photo-placeholder {
+  width: 260px; height: 260px; border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--green-bright);
+  box-shadow: 0 0 32px rgba(0,255,65,.35), 0 0 64px rgba(0,255,65,.15);
+  display: flex; align-items: center; justify-content: center;
+}
+
+.photo-placeholder {
+  background: var(--bg-card);
+  color: var(--green-dim); font-size: .75rem;
+  letter-spacing: 2px; text-align: center; text-transform: uppercase;
+  border-style: dashed;
+}
