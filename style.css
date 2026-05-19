@@ -331,3 +331,13 @@ section {
   color: var(--green-bright); background: transparent;
   letter-spacing: .5px;
 }
+
+
+@media (max-width: 900px) {
+  section { padding: 5rem 2rem; }
+  .navbar { padding: 1rem 2rem; }
+  .hero { flex-direction: column-reverse; text-align: center; }
+  .hero-buttons { justify-content: center; }
+  .about-grid, .contact-grid, .projects-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .hero-name-top, .hero-name-accent { font-size: 2.2rem; }
+}
