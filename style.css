@@ -1,0 +1,20 @@
+
+:root {
+  --bg-primary:    #000000;
+  --bg-secondary:  #0a0f0a;
+  --bg-card:       #0d1a0d;
+  --green-bright:  #00ff41;
+  --green-mid:     #00cc33;
+  --green-dim:     #005c16;
+  --green-glow:    rgba(0, 255, 65, 0.15);
+  --text-primary:  #c8ffc8;
+  --text-muted:    #4d8f4d;
+  --border:        rgba(0, 255, 65, 0.2);
+  --font-heading:  'Orbitron', monospace;
+  --font-body:     'Share Tech Mono', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
